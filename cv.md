@@ -27,3 +27,18 @@ return number%2==0 ? "Even" : "Odd"
 }
 
 ```
+
+## **Education**
+====
+Orenburg State University
+Specialty: _design and technology of radio-electronic means_
+
+## **Languages**
+====
+Russian
+English (A1-A2)
+Czech (A1)
+
+## **Portfolio**
+====
+[CV](https://)
