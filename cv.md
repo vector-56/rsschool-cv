@@ -41,4 +41,4 @@ Czech (A1)
 
 ## **Portfolio**
 ====
-[CV](https://vector56.github.io/rsschool-cv/cv)
+[CV](https://vector-56.github.io/rsschool-cv/cv)
