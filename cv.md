@@ -17,3 +17,13 @@ I like to learn new things, diving deeply into the topic. I plan to master React
 * VScode
 * JavaScript (basic)
 * Example code
+
+### Task from CodeWars:###
+Create a function that takes an integer as an argument and returns “Even” for even numbers or “Odd” for odd numbers.
+
+```
+function even_or_odd(number) {
+return number%2==0 ? "Even" : "Odd"
+}
+
+```
