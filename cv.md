@@ -5,3 +5,15 @@
 ### Phone: +7(902)365-08-66
 ### Discord: Sergey56rus
 =====
+
+I am 31 years old. I have been a cellular communications engineer for more than 8 years, but I want to change my field of activity, and therefore my goal is to study frontend development.
+
+
+I like to learn new things, diving deeply into the topic. I plan to master React in the near future.
+
+====
+## **Skils**
+* Git (basic)
+* VScode
+* JavaScript (basic)
+* Example code
