@@ -2,3 +2,32 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+header {
+    padding: 0 10%;
+}
+
+main {
+    padding: 0 10%;
+}
+
+footer {
+    height: 5vh;
+    background-color: #69dfc2;
+}
+
+h1 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+}
