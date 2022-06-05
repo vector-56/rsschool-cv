@@ -7,8 +7,9 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content:center;
     margin: 0 auto;
+    font-family: 'PT Sans', sans-serif;
 }
 
 header {
@@ -16,18 +17,48 @@ header {
 }
 
 main {
-    padding: 0 10%;
+    padding: 5% 10%;
 }
 
 footer {
-    height: 5vh;
+    height: 4vh;
     background-color: #69dfc2;
+    padding: 15px 10%;
 }
 
-h1 {
-    font-family: 'PT Sans', sans-serif;
+section {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+
+.avatar {
+    width: 300px;
+    height: 193px;
+    border-radius: 5px;
+}
+
+.github-icon {
+    width: 40px;
+}
+
+a {
+    font-weight: 800;
+    color: #36967e;
+}
+
+pre {
+    color:darkred
+}
+
+h2, h4 {
+    padding: 10px 0 10px 0;
 }
 
 p {
     font-family: 'PT Sans', sans-serif;
+    padding: 10px;
+}
+
+ul > li {
+    margin-left: 40px;
 }
