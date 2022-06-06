@@ -13,17 +13,19 @@ body {
 }
 
 header {
-    padding: 0 10%;
+    padding: 25px 10%;
 }
 
 main {
-    padding: 5% 10%;
+    padding: 0 10% 20px 10%;
 }
 
 footer {
     height: 4vh;
     background-color: #69dfc2;
     padding: 15px 10%;
+    display: flex;
+    justify-content:space-between;
 }
 
 section {
@@ -39,6 +41,10 @@ section {
 
 .github-icon {
     width: 40px;
+}
+
+.rsschool-icon {
+    width: 100px;
 }
 
 a {
@@ -61,4 +67,8 @@ p {
 
 ul > li {
     margin-left: 40px;
+}
+
+ul > li span {
+    font-weight: 800;
 }
