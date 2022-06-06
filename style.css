@@ -2,3 +2,97 @@
     margin: 0;
     padding: 0;
 }
+
+html {
+    scroll-behavior: smooth; 
+  }
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin: 0 auto;
+    font-family: 'PT Sans', sans-serif;
+}
+
+nav {
+    background-color: #69dfc2; 
+    padding: 10px 10%;
+
+}
+
+nav > ul{
+    display: flex;
+    list-style: none;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+nav ul > a {
+    color:black;
+    text-decoration: none;
+    margin: 0 10px;
+
+}
+
+header {
+    padding: 25px 10%;
+}
+
+main {
+    padding: 0 10% 20px 10%;
+}
+
+footer {
+    height: 4vh;
+    background-color: #69dfc2;
+    padding: 15px 10%;
+    display: flex;
+    justify-content:space-between;
+}
+
+section {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+
+.avatar {
+    width: 300px;
+    height: 193px;
+    border-radius: 5px;
+}
+
+.github-icon {
+    width: 40px;
+}
+
+.rsschool-icon {
+    width: 100px;
+}
+
+a {
+    font-weight: 800;
+    color: #36967e;
+}
+
+pre {
+    color:darkred
+}
+
+h2, h4 {
+    padding: 10px 0 10px 0;
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+    padding: 10px;
+}
+
+ul > li {
+    margin-left: 40px;
+}
+
+ul > li span {
+    font-weight: 800;
+}
