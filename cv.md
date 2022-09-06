@@ -4,10 +4,10 @@
 
 ### Contact info
 
-**Address:** Russia, Orenburg, Gagarina st.
-**Phone:** +7 902 365 08 66
-**Github:** vector-56
-**Codewars:** vector-56
+* **Address:** Russia, Orenburg, Gagarina st.
+* **Phone:** +7 902 365 08 66
+* **Github:** vector-56
+* **Codewars:** vector-56
 
 ***************
 
@@ -29,7 +29,7 @@ I am working on position cellular engineer in big international company more tha
 
 ### Code Example
 
-'''
+```
 function add(num1, num2) {
   let length;
   let num1S = String(num1).split("").reverse();
@@ -48,7 +48,7 @@ function add(num1, num2) {
   let result = Number(resultArr.reverse().join(""))
   return result
 }
-'''
+```
 
 ***************
 
