@@ -79,6 +79,10 @@ main {
     font-weight: bold;
 }
 
+.skills > ul {
+    padding: 0px;
+}
+
 .skills > ul > li {
     list-style-type: none;
 }
