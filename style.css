@@ -3,8 +3,8 @@ body {
     margin: 0 auto;
 }
 
-p, a {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+p, a, h1, li {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .container {
@@ -15,21 +15,27 @@ p, a {
 nav {
     display: flex;
     justify-content: center;
+    background-color:rgb(102, 102, 102);
 }
 
 nav > ul {
     display: flex;
     justify-content: space-around;
     list-style-type: none;  
+    width: 100%;
 }
 
 nav > ul > li {
-    display: block;
 }
 
 nav > ul > li > a {
     text-decoration: none;
     text-transform: uppercase;
+    color: #ffffff;
+}
+
+nav > ul > li > a:hover {
+    color: #34a4ff;
 }
 
 header {
@@ -49,11 +55,7 @@ header {
 
 .contacts > ul > li {
     list-style-type: none;
-    margin: 5px 0;
-}
-
-.contacts > ul > li > a {
-text-decoration: none;
+    margin: 20px;
 }
 
 main {
@@ -68,12 +70,25 @@ main {
     justify-content: space-around;
 }
 
+.skill > div > h2 {
+    margin-top:0px;
+    margin-bottom: 15px;
+}
+
+.skill-block span {
+    font-weight: bold;
+}
+
+.skill-block {
+    list-style-type: none;
+}
+
 .skills,
 .education,
 .languages
 {
     text-transform: uppercase;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 25%;
     text-align: center;
     border: 3px solid #cccccc;
@@ -81,10 +96,19 @@ main {
     padding: 15px;
 }
 
+h1 {
+    margin-bottom: 50px;
+}
+
 h2 {
     text-transform: uppercase;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 30px 20px 0px 20px;
+}
+
+h2 > a {
+    text-decoration: none;
+    color: #ff7777;
 }
 
 pre {
@@ -101,23 +125,19 @@ footer {
 }
 
 .github-link {
-    width: 90px;
+    width: 150px;
     height: 90px;
-    background-image: url(./img/git.svg);
-    background-repeat: no-repeat;
 }
 
 .year {
-    width: 30px;
+    width: 100px;
     font-size: 20px;
     font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .course-link {
-    background-image: url(./img/rss.svg);
     width: 150px;
     height: 50px;
-    background-repeat: no-repeat;
 }
 

@@ -14,54 +14,54 @@
         <header>
             <nav>
                 <ul>
-                    <li><a href="#">Contacts</a></li>
-                    <li><a href="#">Summary</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#code">Code example</a></li>
                 </ul>
             </nav>
             <div class="info">
-                <div class="photo"><img src="/img/avatar.png" width="250"></div>
-                <div class="contacts">
+                <div class="photo"><img src="/img/avatar.png" alt="author" width="250"></div>
+                <div id="contacts" class="contacts">
                     <ul>
-                        <li><a href="#">Sergey Danusevich</a></li>
-                        <li><a href="#">Russia, Orenburg</a></li>
-                        <li><a href="#">+7(902)365-08-66</a></li>
-                        <li><a href="#">GitHub: vector-56</a></li>
-                        <li><a href="#">CodeWars: vector-56</a></li>
+                        <li><h1>Sergey Danusevich</h1></li>
+                        <li>Location: Russia, Orenburg</li>
+                        <li>Phone: +7(902)365-08-66</li>
+                        <li>GitHub: vector-56</li>
+                        <li>CodeWars: vector-56</li>
                     </ul>
                 </div>
             </div>
         </header>
         <main>
-            <h2>About me</h2>
+            <h2 id="about">About me</h2>
             <p>I am working on position cellular engineer in big international company more than 9 years.
                 I want change my profile because I have more freedom. I consider myself diligent and accustomed to
                 monotonous work. Time to learn something new.
             </p>
-            <div class="skill">
+            <div id="skills" class="skill">
                 <div class="education">
                     <h2>Education</h2>
-                    <div class="skill-block">Orenburg state university Design and technology of radio electronic means</div>
+                    <div class="skill-block"><span>Orenburg state university</span><br>Design and technology of radio electronic means</div>
                 </div>
                 <div class="skills">
                     <h2>Skills</h2>
-                    <div class="skill-block">HTML</div>
-                    <div class="skill-block">CSS</div>
-                    <div class="skill-block">JavaScript</div>
-                    <div class="skill-block">SASS(SCSS)</div>
-                    <div class="skill-block">Git</div>
-                    <div class="skill-block">VSCode</div>
+                    <li class="skill-block">HTML</li>
+                    <li class="skill-block">CSS</li>
+                    <li class="skill-block">JavaScript</li>
+                    <li class="skill-block">SASS(SCSS)</li>
+                    <li class="skill-block">Git</li>
+                    <li class="skill-block">VSCode</li>
                 </div>
                 <div class="languages">
                     <h2>Languages</h2>
-                    <div class="skill-block">Russian (native)</div>
-                    <div class="skill-block">English (A2)</div>
-                    <div class="skill-block">Czech (elementary)</div>
+                    <div class="skill-block"><span>Russian</span> (native)</div>
+                    <div class="skill-block"><span>English</span> (A2)</div>
+                    <div class="skill-block"><span>Czech</span> (elementary)</div>
                 </div>
             </div>
-            <div class="code">
-                <h2>Code example</h2>
+            <div id="code" class="code">
+                <h2>Code example <a href="https://www.codewars.com/users/rsschool_53701dd06ca9bda8/completed_solutions">(and other solutions from CodeWars)</a></h2>
 <pre>
     <code>
   function add(num1, num2) {
@@ -87,9 +87,9 @@
             </div>
         </main>
         <footer>
-            <div class="github-link"></div>
+            <div class="github-link"><a href="https://github.com/vector-56"><img src="/img/git.svg"></a></div>
             <div class="year">2022</div>
-            <div class="course-link"></div>
+            <div class="course-link"><a href="https://rs.school/js/"><img src="/img/rss.svg"></a></div>
         </footer>
     </div>
 </body>
