@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV | Sergey Danusevich</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#code">Code example</a></li>
+                </ul>
+            </nav>
+            <div class="info">
+                <div class="photo"><img src="./img/avatar.png" alt="author" width="250"></div>
+                <div id="contacts" class="contacts">
+                    <ul>
+                        <li><h1>Sergey Danusevich</h1></li>
+                        <li>Location: Russia, Orenburg</li>
+                        <li>Phone: +7(902)365-08-66</li>
+                        <li>GitHub: vector-56</li>
+                        <li>CodeWars: vector-56</li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main>
+            <h2 id="about">About me</h2>
+            <p>I am working on position cellular engineer in big international company more than 9 years.
+                I want change my profile because I have more freedom. I consider myself diligent and accustomed to
+                monotonous work. Time to learn something new.
+            </p>
+            <div id="skills" class="skill">
+                <div class="education">
+                    <h2>Education</h2>
+                    <div class="skill-block"><span>Orenburg state university</span><br>Design and technology of radio electronic means</div>
+                </div>
+                <div class="skills">
+                    <h2>Skills</h2>
+                    <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>SASS(SCSS)</li>
+                    <li>Git</li>
+                    <li>VSCode</li>
+                    </ul>
+                </div>
+                <div class="languages">
+                    <h2>Languages</h2>
+                    <div class="skill-block"><span>Russian</span> (native)</div>
+                    <div class="skill-block"><span>English</span> (A2)</div>
+                    <div class="skill-block"><span>Czech</span> (elementary)</div>
+                </div>
+            </div>
+            <div id="code" class="code">
+                <h2>Code example <a href="https://www.codewars.com/users/rsschool_53701dd06ca9bda8/completed_solutions">(and other solutions from CodeWars)</a></h2>
+<pre>
+    <code>
+  function add(num1, num2) {
+    let length;
+    let num1S = String(num1).split("").reverse();
+    let num2S = String(num2).split("").reverse();
+    let resultArr = [];
+    num1S.length>num2S.length ? length = num1S.length : length = num2S.length
+    for (let i=0; i &lt; length; i++){
+        if (num1S[i] === undefined) {
+        num1S[i] = 0
+        }
+    if (num2S[i] === undefined) {
+        num2S[i] = 0
+        }
+    resultArr.push(Number(num1S[i])+Number(num2S[i]))
+    }
+    let result = Number(resultArr.reverse().join(""))
+    return result
+  }
+    </code>
+</pre>
+            </div>
+        </main>
+        <footer>
+            <div class="github-link"><a href="https://github.com/vector-56"><img src="./img/git.svg" alt="github-image"></a></div>
+            <div class="year">2022</div>
+            <div class="course-link"><a href="https://rs.school/js/"><img src="./img/rss.svg" alt="rss-image"></a></div>
+        </footer>
+    </div>
+</body>
+
+</html>
