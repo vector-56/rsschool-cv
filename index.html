@@ -21,7 +21,7 @@
                 </ul>
             </nav>
             <div class="info">
-                <div class="photo">FOTO</div>
+                <div class="photo"><img src="/img/avatar.png" width="250"></div>
                 <div class="contacts">
                     <ul>
                         <li><a href="#">Sergey Danusevich</a></li>
@@ -39,44 +39,57 @@
                 I want change my profile because I have more freedom. I consider myself diligent and accustomed to
                 monotonous work. Time to learn something new.
             </p>
-            <h2>Skills</h2>
-            <div class="skills">
-                <div class="skill-block">HTML</div>
-                <div class="skill-block">CSS</div>
-                <div class="skill-block">JavaScript</div>
-                <div class="skill-block">SASS(SCSS)</div>
-                <div class="skill-block">Git</div>
-                <div class="skill-block">VSCode</div>
+            <div class="skill">
+                <div class="education">
+                    <h2>Education</h2>
+                    <div class="skill-block">Orenburg state university Design and technology of radio electronic means</div>
+                </div>
+                <div class="skills">
+                    <h2>Skills</h2>
+                    <div class="skill-block">HTML</div>
+                    <div class="skill-block">CSS</div>
+                    <div class="skill-block">JavaScript</div>
+                    <div class="skill-block">SASS(SCSS)</div>
+                    <div class="skill-block">Git</div>
+                    <div class="skill-block">VSCode</div>
+                </div>
+                <div class="languages">
+                    <h2>Languages</h2>
+                    <div class="skill-block">Russian (native)</div>
+                    <div class="skill-block">English (A2)</div>
+                    <div class="skill-block">Czech (elementary)</div>
+                </div>
             </div>
             <div class="code">
-                <pre>
-                    <code>
-                    function add(num1, num2) {
-                        let length;
-                        let num1S = String(num1).split("").reverse();
-                        let num2S = String(num2).split("").reverse();
-                        let resultArr = [];
-                        num1S.length>num2S.length ? length = num1S.length : length = num2S.length
-                        for (let i=0; i < length; i++){
-                          if (num1S[i] === undefined) {
-                            num1S[i] = 0
-                          }
-                          if (num2S[i] === undefined) {
-                            num2S[i] = 0
-                          }
-                          resultArr.push(Number(num1S[i])+Number(num2S[i]))
-                        }
-                        let result = Number(resultArr.reverse().join(""))
-                        return result
-                      }
-                    </code>
-                </pre>
+                <h2>Code example</h2>
+<pre>
+    <code>
+  function add(num1, num2) {
+    let length;
+    let num1S = String(num1).split("").reverse();
+    let num2S = String(num2).split("").reverse();
+    let resultArr = [];
+    num1S.length>num2S.length ? length = num1S.length : length = num2S.length
+    for (let i=0; i < length; i++){
+        if (num1S[i] === undefined) {
+        num1S[i] = 0
+        }
+    if (num2S[i] === undefined) {
+        num2S[i] = 0
+        }
+    resultArr.push(Number(num1S[i])+Number(num2S[i]))
+    }
+    let result = Number(resultArr.reverse().join(""))
+    return result
+  }
+    </code>
+</pre>
             </div>
         </main>
         <footer>
-            <div class="github-link">github-link</div>
+            <div class="github-link"></div>
             <div class="year">2022</div>
-            <div class="course-link">course-link</div>
+            <div class="course-link"></div>
         </footer>
     </div>
 </body>
